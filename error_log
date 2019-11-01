@@ -1,0 +1,23 @@
+[26-Aug-2019 04:49:04 UTC] PHP Fatal error:  Cannot use App\Mail\Contact as Contact because the name is already in use in /home/tsca55/public_html/app/Http/Controllers/ContactController.php on line 9
+[29-Aug-2019 10:58:03 UTC] PHP Fatal error:  Cannot use App\Newsletter as Newsletter because the name is already in use in /home/tsca55/public_html/app/Http/Controllers/NewsletterController.php on line 10
+[29-Aug-2019 11:01:35 UTC] PHP Fatal error:  Cannot use App\Mail\Newsletter as Newsletter because the name is already in use in /home/tsca55/public_html/app/Http/Controllers/NewsletterController.php on line 10
+[29-Aug-2019 11:04:14 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Mail as Mail because the name is already in use in /home/tsca55/public_html/app/Http/Controllers/NewsletterController.php on line 17
+[31-Aug-2019 17:26:16 UTC] PHP Warning:  Unterminated comment starting line 517 in /home/tsca55/public_html/app/Http/Controllers/HomeController.php on line 517
+[18-Oct-2019 12:36:08 UTC] PHP Warning:  Uncaught ErrorException: require_once(/var/www/html/compliancesolutionscanada/vendor/autoload.php): failed to open stream: No such file or directory in /home/tsca55/public_html/app/Http/Controllers/HomeController.php:4
+Stack trace:
+#0 /home/tsca55/public_html/app/Http/Controllers/HomeController.php(4): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/v...', '/home/tsca55/pu...', 4, Array)
+#1 /home/tsca55/public_html/app/Http/Controllers/HomeController.php(4): require_once()
+#2 /home/tsca55/public_html/vendor/composer/ClassLoader.php(444): include('/home/tsca55/pu...')
+#3 /home/tsca55/public_html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/tsca55/pu...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/tsca55/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\Http\\Contro in /home/tsca55/public_html/app/Http/Controllers/HomeController.php on line 4
+[18-Oct-2019 12:36:08 UTC] PHP Fatal error:  main(): Failed opening required '/var/www/html/compliancesolutionscanada/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/tsca55/public_html/app/Http/Controllers/HomeController.php on line 4
+[18-Oct-2019 12:38:09 UTC] PHP Warning:  Uncaught ErrorException: require_once(/var/www/html/compliancesolutionscanada/vendor/autoload.php): failed to open stream: No such file or directory in /home/tsca55/public_html/storage/framework/views/c2d9540b937d6e67bc0e617b83d3f769dd187ca3.php:4
+Stack trace:
+#0 /home/tsca55/public_html/storage/framework/views/c2d9540b937d6e67bc0e617b83d3f769dd187ca3.php(4): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/v...', '/home/tsca55/pu...', 4, Array)
+#1 /home/tsca55/public_html/storage/framework/views/c2d9540b937d6e67bc0e617b83d3f769dd187ca3.php(4): require_once()
+#2 /home/tsca55/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/tsca55/pu...')
+#3 /home/tsca55/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/tsca55/pu...', Array)
+#4 /home/tsca55/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\Com in /home/tsca55/public_html/storage/framework/views/c2d9540b937d6e67bc0e617b83d3f769dd187ca3.php on line 4
+[18-Oct-2019 12:38:09 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required '/var/www/html/compliancesolutionscanada/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/tsca55/public_html/storage/framework/views/c2d9540b937d6e67bc0e617b83d3f769dd187ca3.php on line 4
